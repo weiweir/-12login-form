@@ -1,0 +1,106 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 100%;
+    box-sizing: border-box;
+    outline: none;
+   }
+html , body {
+    height: 100%;
+    font-family: 'Proxima Nova', sans-serif;
+}
+body {
+    background: #4b5059 url(images/background.png) repeat top left;
+    display: flex;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 475px;
+    height: 475px;
+    margin: 0px auto ;
+    padding: 0px 45px;
+    background-color:  #f1f2f4;
+    border-radius: 3px;
+    box-shadow: 0px 1px 3px rgba(23, 16,25, 0.75);
+
+}
+img{
+    display: inline-block;
+    margin-top: -74px;
+    z-index: 2;
+}
+#hole{
+    background: #4b5059 url(images/background.png) repeat top left;
+    width: 111px;
+    height: 5px;
+    border-radius: 1.5px;
+    margin-top: -5px;
+    box-shadow: 0px -2px 0px rgba(23,16,25,20%);
+}
+h3{
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: bold;
+    color: #36383c;
+    margin-top: 42px;
+
+}
+h4{
+    font-size: 22px;
+	line-height: 30px;
+	font-weight: lighter;
+    color: #7c818b;
+    margin-top: 3px;
+    margin-bottom: 44px;
+
+}
+#form-container{
+    width: 385;
+    padding: 0px 2px;
+    border-radius: 3px;
+    background-color: #e5e7e9;
+    box-shadow: inset 0px 1px 3px rgba(23,16,25,0.4) , 0px 2px 0px white ;
+}
+div#form-container input {
+    width: 381px;
+    height: 85px;
+    font-size: 24px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position:24px center;
+    padding-left: 73px;
+    padding-right: 24px;
+
+}
+
+input[type="email"]{
+    background-image: url(images/mail-icon.png);
+    border-bottom: 1px solid #bec0c2;
+}
+input[type="password"]{
+    height: 74px;
+    border-top: 1px solid white;
+    background-image: url(images/password-icon.png);
+}
+button{
+    width: 385px;
+    height: 74px;
+    margin-top: 27px;
+    border:1px solid #2a8b7b;
+    background:  #50c1b2 url(images/btn-background.png) repeat-x left center;
+    border-radius:  3px;
+    box-shadow: 0px 1px 3px rgba(0,0,0.3);
+    font-size: 36px;
+    color: white;
+    text-shadow: 0px 1px 3px rgba(23,16,25,0.55);
+    cursor: pointer;
+}
+button:hover{
+    background-color:#2a8b7b ;
+    background-image: none;
+}
